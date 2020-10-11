@@ -1,0 +1,240 @@
+.top{
+    position: absolute;
+    top: 0;
+    width:100%;
+    height:50px;
+    background-color: aqua;
+    
+}
+.btn_top{
+    position: relative;
+    top: 0;
+    left:50px;
+    height:50px;
+    width:100px;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    line-height: 15px;
+}
+#btn_top_login{
+    position: absolute;
+    top: 0;
+    right:100px;
+    height:50px;
+    width:80px;
+    font-size: large;
+    color: black;
+    line-height: 15px;
+    border-radius:5px;
+}
+#btn_top_login:hover{
+    background-color: black;
+    color: white;
+    border-radius:5px;
+}
+
+.home_menu{
+    position: absolute;
+    top: 150px;
+    width: 66%;
+    height: 100px;
+    left: 17%;
+    background-color: aqua;
+}
+.btn_menu{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    top: 25px;
+    margin: auto 0px;
+    font-size: large;
+}
+#btn_menu_1{
+    left:40px
+}
+#btn_menu_2{
+    left:280px
+}
+#btn_menu_3{
+    left:520px
+}
+#btn_menu_4{
+    left:760px
+}
+
+
+.home_search_menu{
+    position: relative;
+    background-color: darkcyan;
+    top: 300px;
+    height: 100px;
+    width: 70%;
+    left: 15%;
+}
+.btn_search{
+    position: absolute;
+    background-color: blanchedalmond;
+    top: 20px;
+    height: 60px;
+    width: 180px;
+}
+#btn_search_1{
+    left:100px;
+}
+#btn_search_2{
+    left:320px;
+}
+#btn_search_3{
+    left:540px;
+}
+#btn_search_4{
+    left:760px;
+}
+
+
+.home_main{
+    position: relative;
+    background-color: darkcyan;
+    top: 400px;
+    height: 400px;
+    width: 70%;
+    margin: auto 0px;
+    left: 15%;
+}
+.buttom{
+    position: relative;
+    background-color: darkcyan;
+    height: 100px;
+    width: 100%;
+    margin: auto 0px;
+    top: 900px;
+}
+
+#login_dialog{
+    margin: auto;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:300px;
+    width:500px;
+    background-color: beige;
+}
+
+#background{
+    margin: auto;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+}
+.dialog_username{
+    position: absolute;
+    top: 70px;
+    left: 85px;
+}
+.dialog_password{
+    position: absolute;
+    top: 100px;
+    left: 85px;
+}
+#login_username{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+    top: 15px;
+    left: 100px;
+}
+#login_password{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+    top: 15px;
+    left: 100px;
+}
+#login_in{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    top: 200px;
+    left: 220px;
+    text-align: center;
+    line-height: 0;
+}
+
+
+.company_menu{
+    position: absolute;
+    display: grid;
+    top:400px;
+    left:15%;
+    width:150px;
+    height:200px;
+    grid-template-columns: 150px;
+    grid-template-rows: 50px 50px 50px 50px;
+    background-color: bisque;
+    text-align:center;
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+.company_main{
+    position: absolute;
+    top: 400px;
+    left: 25%;
+    width: 950px;
+    height: 400px;
+    background-color: aquamarine;
+    
+}
+.company_menu1{
+    display: grid;
+    text-align:center;
+    grid-row: 1 / 2;
+
+}
+.company_menu2{
+    display: grid;
+    text-align:center;
+    grid-row: 2 / 3;
+}
+.company_menu3{
+    display: grid;
+    text-align:center;
+    grid-row: 3 / 4;
+}
+.company_menu4{
+    display: grid;
+    text-align:center;
+    grid-row: 4 / 5;
+}
+.company_menu1:hover,
+.company_menu2:hover,
+.company_menu3:hover,
+.company_menu4:hover{
+    background-color: black;
+    color: white;
+}
+.company_menu1,
+.company_menu2,
+.company_menu3,
+.company_menu4{
+    
+    color: black;
+    border-radius:5px;
+    border-color: black;
+}

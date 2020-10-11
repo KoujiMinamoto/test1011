@@ -1,0 +1,27 @@
+.text_holder{
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.main_container{
+    /* position: relative;
+    margin:3%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.design_div_leftContainer{
+    width: 46%;
+    min-height: 400px;
+    float:left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.design_div_rightContainer{
+    width: 46%;
+    min-height: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+

@@ -1,0 +1,9 @@
+.about_col1,
+.about_col2,
+.about_col3,
+.about_col4{
+    position: relative;
+    width: 25%;
+    left: 0%;
+    float:left;
+}

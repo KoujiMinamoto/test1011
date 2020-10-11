@@ -1,0 +1,70 @@
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+.contact_div h3,
+.contact_div p,
+.contact_div label {
+    font-family:'Raleway',sans-serif;
+    color: #5588aa
+}
+h2 {
+    font-family:'Raleway',sans-serif
+}
+.contact_div_vname,
+.contact_div_vemail,
+.contact_div_sub {
+
+    width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+}
+textarea.contact_div_msg {
+    width:90%;
+    height:130px;
+    margin-top:10px;
+    padding:5px;
+    box-shadow:1px 1px 12px gray;
+    border-radius:3px
+}
+.contact_div_send {
+    width:103%;
+    height:45px;
+    margin-top:20px;
+    border-radius: 1.5em;
+    background: linear-gradient(to right, #2752b0, #406cfb);
+    border:1px solid #fff;
+    color:#fff;
+    font-family:'Raleway',sans-serif;
+    font-size:18px
+}
+div#feedback {
+    text-align:center;
+    height:570px;
+    width:530px;
+    padding:20px 25px 20px 15px;
+    background-color:white;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 1.5em;
+    font-family:'Raleway',sans-serif;
+    float:left
+}
+.container {
+    width:960px;
+    margin:40px auto
+}
